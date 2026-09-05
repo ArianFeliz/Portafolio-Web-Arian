@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de Arian Feliz — desarrollo web, programación y proyectos digitales.">
+  <title>Arian Feliz | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <header class="navbar">
+    <a class="brand" href="#home">AF<span>.</span></a>
+
+    <nav class="nav-links" aria-label="Navegación principal">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#stack">Stack</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="nav-github" href="https://github.com/ArianFeliz?tab=repositories" target="_blank" rel="noopener noreferrer">
+      GitHub <span>↗</span>
+    </a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> AVAILABLE FOR NEW PROJECTS</p>
+        <h1>Construyo cosas<br><em>que funcionan.</em></h1>
+        <p class="hero-text">
+          Soy Arian, desarrollador enfocado en crear experiencias digitales
+          combinando código, diseño y curiosidad por la tecnología.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#work">Ver proyectos <span>↓</span></a>
+          <a class="button secondary" href="https://github.com/ArianFeliz?tab=repositories" target="_blank" rel="noopener noreferrer">Mi GitHub <span>↗</span></a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="portrait-frame">
+          <div class="portrait-number">01</div>
+          <img src="assets/Arian.png" alt="Retrato de Arian">
+          <div class="portrait-tag">DEVELOPER / DESIGNER</div>
+        </div>
+      </div>
+
+      <div class="scroll-label">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="marquee" aria-label="Tecnologías">
+      <div class="marquee-track">
+        <span>HTML5</span><i>✦</i><span>CSS3</span><i>✦</i><span>JAVASCRIPT</span><i>✦</i>
+        <span>PYTHON</span><i>✦</i><span>C++</span><i>✦</i><span>GIT</span><i>✦</i>
+        <span>HTML5</span><i>✦</i><span>CSS3</span><i>✦</i><span>JAVASCRIPT</span><i>✦</i>
+        <span>PYTHON</span><i>✦</i><span>C++</span><i>✦</i><span>GIT</span><i>✦</i>
+      </div>
+    </section>
+
+    <section class="section work" id="work">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow"><span></span> SELECTED WORK</p>
+          <h2>Proyectos destacados<span>.</span></h2>
+        </div>
+        <p class="section-note">Una selección de proyectos.<br>El resto vive en GitHub.</p>
+      </div>
+
+      <div class="project-carousel reveal" aria-label="Proyectos destacados">
+        <button class="carousel-arrow carousel-prev" type="button" aria-label="Proyecto anterior">←</button>
+        <div class="project-track">
+          <article class="project-card carousel-slide is-active">
+            <div class="project-image project-one">
+              <span>PROJECT / 01</span>
+              <img class="project-screenshot" src="assets/camara-avanzada.png" alt="Interfaz de la aplicación Cámara Web Avanzada">
+            </div>
+            <div class="project-info">
+              <div>
+                <h3>Cámara Web Avanzada</h3>
+                <p>React / TypeScript / Canvas API</p>
+              </div>
+              <a href="https://github.com/ArianFeliz/Aplicacion-Web-Camara-Avanzada" target="_blank" rel="noopener noreferrer" aria-label="Ver Cámara Web Avanzada en GitHub">↗</a>
+            </div>
+          </article>
+
+          <article class="project-card carousel-slide">
+            <div class="project-image project-two">
+              <span>PROJECT / 02</span>
+              <img class="project-screenshot" src="assets/sistema-rrhh.png" alt="Dashboard del sistema de gestión de recursos humanos">
+            </div>
+            <div class="project-info">
+              <div>
+                <h3>Sistema RR. HH.</h3>
+                <p>React / Express / PostgreSQL</p>
+              </div>
+              <a href="https://github.com/ArianFeliz/sistema-rrhh" target="_blank" rel="noopener noreferrer" aria-label="Ver Sistema de Recursos Humanos en GitHub">↗</a>
+            </div>
+          </article>
+
+          <article class="project-card carousel-slide">
+            <div class="project-image project-three">
+              <span>PROJECT / 03</span>
+              <img class="project-screenshot" src="assets/zoologico-zoodom.png" alt="Página web del zoológico inspirada en ZOODOM">
+            </div>
+            <div class="project-info">
+              <div>
+                <h3>Página de Zoológico</h3>
+                <p>HTML / CSS / JavaScript</p>
+              </div>
+              <a href="https://github.com/ArianFeliz/PAGINA-DE-ZOOLOGICO-INSPIRADA-EN-ZOODOM" target="_blank" rel="noopener noreferrer" aria-label="Ver página de zoológico en GitHub">↗</a>
+            </div>
+          </article>
+        </div>
+        <button class="carousel-arrow carousel-next" type="button" aria-label="Siguiente proyecto">→</button>
+        <div class="carousel-dots" aria-label="Seleccionar proyecto">
+          <button class="carousel-dot is-active" type="button" aria-label="Mostrar proyecto 1"></button>
+          <button class="carousel-dot" type="button" aria-label="Mostrar proyecto 2"></button>
+          <button class="carousel-dot" type="button" aria-label="Mostrar proyecto 3"></button>
+        </div>
+      </div>
+
+      <div class="github-cta reveal">
+        <div>
+          <p class="eyebrow"><span></span> MORE PROJECTS</p>
+          <h3>¿Quieres ver todas mis creaciones?</h3>
+        </div>
+        <a class="button primary" href="https://github.com/ArianFeliz?tab=repositories" target="_blank" rel="noopener noreferrer">Explorar repositorio ↗</a>
+      </div>
+    </section>
+
+    <section class="section stack" id="stack">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow"><span></span> TOOLKIT</p>
+          <h2>Mi stack<span>.</span></h2>
+        </div>
+      </div>
+
+      <div class="stack-list">
+        <div class="stack-item reveal"><span>01</span><strong>HTML / CSS</strong><p>Interfaces responsivas</p><b>WEB</b></div>
+        <div class="stack-item reveal"><span>02</span><strong>JavaScript</strong><p>Interacción y experiencias</p><b>WEB</b></div>
+        <div class="stack-item reveal"><span>03</span><strong>Python</strong><p>Lógica, automatización y backend</p><b>CODE</b></div>
+        <div class="stack-item reveal"><span>04</span><strong>C++</strong><p>Programación y algoritmos</p><b>CODE</b></div>
+        <div class="stack-item reveal"><span>05</span><strong>Git / GitHub</strong><p>Control de versiones</p><b>TOOLS</b></div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="about-number reveal">02</div>
+      <div class="about-content reveal">
+        <p class="eyebrow"><span></span> ABOUT ME</p>
+        <h2>Más que escribir código,<br><em>me gusta crear.</em></h2>
+        <p>
+          Me interesa transformar ideas en productos digitales claros,
+          funcionales y visualmente atractivos. Disfruto explorar nuevas
+          tecnologías, resolver problemas y mejorar cada proyecto con lo
+          aprendido en el camino.
+        </p>
+        <div class="process">
+          <span>IDEA</span><b>→</b><span>DESIGN</span><b>→</b><span>CODE</span><b>→</b><span>TEST</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-inner reveal">
+        <p class="eyebrow"><span></span> GET IN TOUCH</p>
+        <h2>Hagamos algo<br><em>interesante.</em></h2>
+        <p>¿Tienes una idea, proyecto o simplemente quieres hablar de tecnología?</p>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:tu-correo@ejemplo.com">Contactarme ↗</a>
+          <a class="button secondary" href="https://github.com/ArianFeliz?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 ARIAN FELIZ</span>
+    <span>BUILT WITH CODE & CURIOSITY</span>
+    <a href="#home">BACK TO TOP ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
